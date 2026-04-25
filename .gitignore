@@ -1,0 +1,35 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Environment (NEVER push API keys)
+.env
+
+# Runtime outputs (generated at runtime, not needed in repo)
+outputs/
+uploads/
+
+# Heavy model cache (gigabytes — never push)
+.cache/
+models/
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
