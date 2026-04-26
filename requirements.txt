@@ -8,6 +8,5 @@ groq
 gTTS
 Pillow
 pytesseract
-transformers
 python-dotenv
 pydantic
